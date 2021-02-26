@@ -1,0 +1,23 @@
+{
+    "name":"Google Spinner",
+    "description":"Spins google logo",
+    "version":"0.1.0",
+    "manifest_version":2,
+    "icons": {
+        "16":"./spinner16.png",
+        "32":"./spinner32.png",
+        "48":"./spinner64.png",
+        "128":"./spinner128.png"
+    },
+    "background": {
+        "scripts": ["./background.js"]
+    },
+    "options_page":"./options.html",
+    "browser_action": {
+        "default_popup":"popup.html"
+    },
+    "permissions": [
+        "tabs",
+        "https://www.google.com/*"
+    ]
+}
